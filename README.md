@@ -13,7 +13,7 @@ something not clear or not correct , thanks to get back to me and give me the fe
      1. to restructure and transform your data ( when you find the query complex, try to restructure the table first then use from (select...) to get your request.
      2- using to prefiltering ( if you need to filter the table first get the value you need. 
      
-    c. subquery with where 
+   c. subquery with where 
      1. to use it when you need a value like max or min or averge to filter by using it 
      2- now you need not only the value but you may need a column or filtered table to compare a column with it 
      
