@@ -39,6 +39,20 @@
    
    data["Age_type"] = ["young_man" if i < 25 else "Man" if i > 40 else "Old" for i in data.age ]
    
+   
+   
+   def condition(table):
+    if table["product_name"] == "sushi":
+        value = table["price"] * 20
+    else:
+        value = table["price"] * 10
+    return value
+
+   sales_menu["points"] = sales_menu.apply(condition, axis = 1)
+   
+   
+   
+   
    data.loc[data.gender == "Female", "Female_type"] = "yes"
    data.loc[data.gender != "Female", "Female_type"] = "No" 
    
