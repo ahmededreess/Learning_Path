@@ -200,4 +200,12 @@ excel = pd.read_excel("   ")
 json = pd.read_json("   ")
 
 ```  
+### datetime functions 
+
+```
+from datetime import timedelta
+sales_menu_members["after_week"] = sales_menu_members["join_date"] + timedelta(days = 7)
+
+
+```
 
