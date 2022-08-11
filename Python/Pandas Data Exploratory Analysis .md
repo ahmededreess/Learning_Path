@@ -203,8 +203,25 @@ json = pd.read_json("   ")
 ### datetime functions 
 
 ```
+d_parser = lambda x: pd.datetime.strptime(x, '%Y-%m-%d %I-%p')
+df = pd.read_csv('ETH_1h.csv', parse_dates=['Date'], date_parser=d_parser)
+
+df['Date'].dt.day_name()
+df['DayOfWeek'] = df['Date'].dt.day_name()
+
+
+df.set_index('Date', inplace=True)
+df['2019']
+df['2020-01':'2020-02']
+df['2020-01':'2020-02']['Close'].mean()
+df['2020-01-01']['High'].max()
+highs = df['High'].resample('D').max()
+df.resample('W').mean()
+df.resample('W').agg({'Close': 'mean', 'High': 'max', 'Low': 'min', 'Volume': 'sum'})
+
 from datetime import timedelta
 sales_menu_members["after_week"] = sales_menu_members["join_date"] + timedelta(days = 7)
+
 
 
 ```
