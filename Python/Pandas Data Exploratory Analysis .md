@@ -216,11 +216,23 @@ df['2020-01':'2020-02']
 df['2020-01':'2020-02']['Close'].mean()
 df['2020-01-01']['High'].max()
 highs = df['High'].resample('D').max()
+
+df['Close'].resample('M').mean().head()
+df['Close'].resample('M').mean().plot(kind='bar')
+
 df.resample('W').mean()
 df.resample('W').agg({'Close': 'mean', 'High': 'max', 'Low': 'min', 'Volume': 'sum'})
 
+rng = pd.date_range(start="6/1/2016",end="6/30/2016",freq='B')
+rng = pd.date_range('1/1/2011', periods=72, freq='H')
+
+daily_index.difference(df.index)   // to compare between two dataframes.dates 
+df.asfreq('D',method='pad')
+
 from datetime import timedelta
 sales_menu_members["after_week"] = sales_menu_members["join_date"] + timedelta(days = 7)
+
+df.shift(1) 
 
 
 
