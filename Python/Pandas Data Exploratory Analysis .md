@@ -234,7 +234,8 @@ sales_menu_members["after_week"] = sales_menu_members["join_date"] + timedelta(d
 
 df.shift(1) 
 
-
-
 ```
+### Replacing function with many values 
+
+https://pythonguides.com/pandas-replace-multiple-values/
 
