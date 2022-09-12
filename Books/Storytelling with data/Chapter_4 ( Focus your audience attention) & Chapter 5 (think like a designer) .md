@@ -20,18 +20,18 @@
          For example, Vischeck (vischeck.com) allows you to upload images or download the tool to use on your own computer.
          
  #### chapter 5 ( think like a designer ) 
+ you are like a designer So you should have tools to help you in your work , So let’s start with the following :
  
-  you are like a designer So you should have tools to help you in your work , So let’s start with the following :
-    - **Highlight the important stuff** by using the ( Color - Size - UpperCase - Bold )
-    - **Eliminate distractions** ( You know you’ve achieved perfection, not when you , have nothing more to add, but when you have nothing to take away )
+    - Highlight the important stuff by using the ( Color - Size - UpperCase - Bold )
+    - Eliminate distractions ( You know you’ve achieved perfection, not when you , have nothing more to add, but when you have nothing to take away )
         - Not all data are equally important
         - When detail isn’t needed, summarize
         - Ask yourself: would eliminating this change anything?
-    - **Create a clear visual hierarchy of information ** is like categorize the data to parts.
-    - **Accessibility** is to make your visualization easy to interpret and understand.
-    - **Don’t overcomplicate:**
-    - **Text is your friend**: if you have a graph and reach to conclusion, he should write this conclusion
+    - Create a clear visual hierarchy of information ** is like categorize the data to parts.
+    - Accessibility is to make your visualization easy to interpret and understand.
+    - Don’t overcomplicate:
+    - Text is your friend: if you have a graph and reach to conclusion, he should write this conclusion
     - Aesthetics
         - look for examples of effective data visualization to follow
         - When you see a graph that looks nice, pause to consider what you like about it
-    - **Acceptance**
+    - Acceptance
