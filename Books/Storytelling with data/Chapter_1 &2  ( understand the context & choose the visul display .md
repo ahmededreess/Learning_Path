@@ -36,5 +36,20 @@
         3. your tone with your presentation is important.
         
   
-  
+ #### 2.  Choose an appropriate visual display
+ 
+   ##### Numbers : 
+        - When you have just a number or two to share, simple text can be a great way to communicate. 
+           you can use it for compare between two situations like the following :
+            - 20% of children had a traditional stay-at-home mom in 2012, compared to 41% in 1970 ( page 39 )
+            - no of the applications increased by 2015 than 2014.
+   ##### Tables
+        - avoid using the table in the live presentation as you will lose attention and ears of your audience .
+        - the data stands out more than the structural components of the table with light borders, minimal borders.
+        
+   ##### Charts
+        - Scatterplot ( relation between two variables )
+        - Slopegraph it is good shap to compare two situations also ( like survey)
+        - never use three dimensions
+        - not recommended to use the pie chart and donount charts 
   
