@@ -24,8 +24,9 @@
             
         2. Big Idea : it boils the so‐what down even further: to a single sentence.
 
-        3. Stroy board : It is a visual outline of the content you plan to create. it helps to ensure the communication you craft is on point. 
-        it also establishes a structure for your communication. 
+        3. Stroy board : It is a visual outline of the content you plan to create. it helps 
+           to ensure the communication you craft is on point. 
+           it also establishes a structure for your communication. 
         
  #####    - Some notes you should take in your consideration.
 
@@ -34,4 +35,6 @@
            (the control and level of details should take in your consideration ). 
         3. your tone with your presentation is important.
         
+  
+  
   
