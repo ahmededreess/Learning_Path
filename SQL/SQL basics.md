@@ -29,8 +29,11 @@ INNER JOIN right table          -- right table
   ON left table. common_column = third table.common_column  -- if we will use the third table to pick columns from them 
 
 inner join ... يبق انت هتجيب المشترك بس بين الى الجداول 
+
 left join ... هتجيب كل الى موجود فى الجدول الشمال 
+
 right join ... هنجيب كل الى موجود فى الجدول اليمين 
+
 full join ... هنجيب كل المتغيرات فى الجدولين اليمين والشمال 
 cross join ... كل قيمة فى اليمين هتتحط مع كل قيمة فى الشمال 
 semi join ...  بتستخدم لو انا عايز القيم الى فى الجدول الشمال الى موجوده فى اليمين بس من غير ما احتاج حاجه من الجدول اليمين بس طبعا البيانات المشتركة الى ما بينهم 
