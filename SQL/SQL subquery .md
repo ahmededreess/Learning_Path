@@ -4,8 +4,8 @@
   
     1. you can use it if you will perform complex calculation. 
     2- if you need a value to compare it with other values like average or the maximun value.
-زى فكرة ان انا اجيب المتوسط فى عمود مع القيمة عشان اشوف الفرق او زى ان يكون فى عملية حسابية معقده 
-زى مثلا عملية طرح بين القيمة ومتوسط القيم ساعتها ممكن اسنخدمها
+زى فكرة ان انا اجيب المتوسط فى عمود مع القيمة عشان اشوف الفرق
+او زى ان يكون فى عملية حسابية معقده زى مثلا عملية طرح بين القيمة ومتوسط القيم ساعتها ممكن اسنخدمها
 
 
    #### subquery with from
@@ -13,11 +13,11 @@
      1. to restructure and transform your data ( when you find the query complex, try to restructure the table first then use from (select...) to get your request.
      2- using to prefiltering ( if you need to filter the table first get the value you need. 
      
-                                   المقصد هنا اننا مش محتاجين قيمة او عمود زى الاستخدام بتاع الكويرى مع الوير ..انما هنا انا بحتاج معلومات من اكثر من عمود
-                                   او ان افلتر على حاجة الاول وبعد كده اغيرها فى الطلب الاساسي 
+المقصد هنا اننا مش محتاجين قيمة او عمود زى الاستخدام بتاع الكويرى مع الوير ..انما هنا انا بحتاج معلومات من اكثر من عمود
+او ان افلتر على حاجة الاول وبعد كده اغيرها فى الطلب الاساسي 
 
-                                                                                                                           وكمان ممكن تستخدم داخل التداخل المشترك 
-       INNER Join ( Select ......) 
+وكمان ممكن تستخدم داخل التداخل المشترك 
+       INNER Join ( Select ......)
        
        
 #### subquery with where 
