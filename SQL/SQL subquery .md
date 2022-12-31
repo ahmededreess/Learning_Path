@@ -1,7 +1,4 @@
-### my journey with SQL , I hope to find it useful for your learning journey also. 
-
-the most important thing I tried to learn is when to use the function , not how to work because you can find that easily in many sites.So let's start and if you find 
-something not clear or not correct , thanks to get back to me and give me the feedback. 
+### Subquery 
 
 1- Subquery 
   a. subquery with select 
