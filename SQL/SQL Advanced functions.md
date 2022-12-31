@@ -83,25 +83,27 @@ pivot(
 ### working_with_ String
 
   #### Discovering 
+  ```
     - LEN FUNCTION 
     - CHARINDEX('t', 'Customer')  -- Search for "t" in string "Customer", and return position
     - CHARINDEX(substring, string, start) , SELECT CHARINDEX('mer', 'Customer', 3) -- Search for "mer" in string "Customer", and return position (start in position 3)
     -  POISTION('a' in email ) 
     -  STRPOS(email ,'a')
     - to_tsvector(title) @@ to_tsquary('elf'); is to search for elf in full sentence 
+```
 
 
   #### EXTRACT WORDS
-
+```
     - LEFT FUNCTION LEFT(column , 23)
     - RIGHT FUNCTION RIGHT(column, 23)
     - SUBSTRING(string, start, length)      Example SUBSTRING('SQL Tutorial', 1, 3)  result = SQL
     - SUBSTRING(column from 0 for 10 )
-  
+```
 
  
   #### Modifying and changing words 
-  
+  ```
    - UPPER(     ) 
    - LOWER(      ) 
    - INITCAP(     )
@@ -119,10 +121,10 @@ pivot(
    - REPLACE(column, 'what you want to change' , 'the change you need') as
    - REVERSE() need to reverse the function 
    - LPAD('PADD',10,##) means to complete the word padd until make the total no.character equal 10 (result ######PADD)
- 
+ ```
    
 ### WORKING_WITH_NUMBER
-
+```
    - ABS(NUMBER) 
    - SIGN (   ) 
    - SQRT( 9 ) RESULT 3 
@@ -139,8 +141,7 @@ pivot(
    - count(distinct   ) 
    - sum(distinct     ) sum only the unique values 
    - min(distinct    )  
+```
 
 The functions of the statistics 
 AVG() - STDEV() - STDEVP() - VAR() - VARP()
-MEDIAN IS NOT BUILT IN SQL SO YOU NEED TO USE THE PERCENTILE_COUNT(0.5) AS THE FOLLOWING :
-```
