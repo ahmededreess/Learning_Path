@@ -4,9 +4,8 @@
   
     1. you can use it if you will perform complex calculation. 
     2- if you need a value to compare it with other values like average or the maximun value.
-    
-                                                                                                زى فكرة ان انا اجيب المتوسط فى عمود مع القيمة عشان اشوف الفرق  
-                                                            او زى ان يكون فى عملية حسابية معقده زى مثلا عملية طرح بين القيمة ومتوسط القيم ساعتها ممكن اسنخدمها
+زى فكرة ان انا اجيب المتوسط فى عمود مع القيمة عشان اشوف الفرق او زى ان يكون فى عملية حسابية معقده 
+زى مثلا عملية طرح بين القيمة ومتوسط القيم ساعتها ممكن اسنخدمها
 
 
    #### subquery with from
